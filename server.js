@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 
 // Apply middleware
-app.use(bodyParser.json({ type: 'application/*+json' }))
+app.use(bodyParser.json())
 
 // Static content
 app.use(express.static('static'));

@@ -1,6 +1,6 @@
 
 // Main
 
-$('document').ready(()=>{
+$('document').ready(() => {
     console.log('Hey there!');
-}
+});
