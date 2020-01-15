@@ -1,0 +1,23 @@
+{
+  "name": "web-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate template to use for web development",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galarzafrancisco/web-boilerplate.git"
+  },
+  "author": "Francisco Galarza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galarzafrancisco/web-boilerplate/issues"
+  },
+  "homepage": "https://github.com/galarzafrancisco/web-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
